@@ -142,11 +142,11 @@ MAILERS = {
         'OPTIONS': {
             'host': 'smtp.gmail.com',
             'port': 587,
-            'username': os.getenv('facttoo0407@gmail.com'),
-            'password': os.getenv('araf szhr gsvg bvpq'),
+            'username': os.getenv('EMAIL_HOST_USER'),
+            'password': os.getenv('EMAIL_HOST_PASSWORD'),
             'use_tls': True,
         },
     },
 }
 
-EMAIL_SENDER = 'facttoo0407@gmail.com'
+EMAIL_SENDER = os.getenv('EMAIL_SENDER')
