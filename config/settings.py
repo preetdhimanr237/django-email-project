@@ -142,8 +142,8 @@ MAILERS = {
         'OPTIONS': {
             'host': 'smtp.gmail.com',
             'port': 587,
-            'username': os.getenv('EMAIL_HOST_USER'),
-            'password': os.getenv('EMAIL_HOST_PASSWORD'),
+            'username': os.getenv('facttoo0407@gmail.com'),
+            'password': os.getenv('araf szhr gsvg bvpq'),
             'use_tls': True,
         },
     },
